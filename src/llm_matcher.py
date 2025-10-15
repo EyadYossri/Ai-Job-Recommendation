@@ -1,7 +1,7 @@
 
 import json
 import google.generativeai as genai
-from src.config import GEMINI_API_KEY, MODEL_NAME, TEMPERATURE
+from config import GEMINI_API_KEY, MODEL_NAME, TEMPERATURE
 import time
 
 # Configure Gemini
@@ -27,14 +27,11 @@ Return only valid JSON with:
     response = model.generate_content(prompt, generation_config={"temperature": TEMPERATURE})
     result_text = response.text.strip()
 
-    # 🧹 Clean up code fences and extra text like ```json
     result_text = result_text.replace("```json", "").replace("```", "").strip()
 
     try:
-        # Convert string JSON → dict safely
         result_json = json.loads(result_text)
     except json.JSONDecodeError:
-        # fallback if Gemini adds text before JSON
         start = result_text.find("{")
         end = result_text.rfind("}") + 1
         result_json = json.loads(result_text[start:end])

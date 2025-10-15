@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from src.config import GEMINI_API_KEY, MODEL_NAME, TEMPERATURE
+from config import GEMINI_API_KEY, MODEL_NAME, TEMPERATURE
 
 genai.configure(api_key=GEMINI_API_KEY)
 
