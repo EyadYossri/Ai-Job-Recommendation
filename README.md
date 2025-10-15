@@ -42,4 +42,21 @@ It automatically:
 
 ## ⚙️ Setup Instructions
 ```bash
-# Clone the repos
+# Clone the repository
+git clone https://github.com/YourUsername/Ai-Job-Recommendation.git
+cd Ai-Job-Recommendation
+
+# Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate  # (Windows)
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create .env file
+GEMINI_API_KEY=your_api_key_here
+MODEL_NAME=gemini-2.5-flash-lite
+TEMPERATURE=0.2
+
+# Run the app
+streamlit run src/streamlit_app.py
