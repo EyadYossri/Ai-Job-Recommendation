@@ -4,22 +4,22 @@ LLM Job Recommender is an AI-powered Streamlit web app that analyzes job descrip
 
 It automatically:
 
-Extracts text from job description and CV PDFs
+  -Extracts text from job description and CV PDFs
 
-Uses Gemini AI to parse key details such as skills, education, and experience
+  -Uses Gemini AI to parse key details such as skills, education, and experience
 
-Compares each CV with the job description
+  -Compares each CV with the job description
 
-Produces a ranked list of candidates based on suitability scores
+  -Produces a ranked list of candidates based on suitability scores
 
 🧠 Key Features
 
-📄 PDF Extraction using PyMuPDF (pymupdf)
+  📄 PDF Extraction using PyMuPDF (pymupdf)
 
-🧩 LLM Analysis powered by google-generativeai
+  🧩 LLM Analysis powered by google-generativeai
 
-🔐 Secure Configuration with .env file (API keys hidden)
+  🔐 Secure Configuration with .env file (API keys hidden)
 
-⚡ Streamlit Frontend for smooth user interaction
+  ⚡ Streamlit Frontend for smooth user interaction
 
 🧮 Candidate Ranking with AI-generated reasoning
