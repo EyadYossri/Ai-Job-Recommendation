@@ -1,9 +1,9 @@
 import streamlit as st
 import tempfile
-from src.pdf_extractor import extract_text_from_pdf
-from src.job_parser import parse_job_description
-from src.cv_parser import parse_cv
-from src.llm_matcher import rank_candidates
+from pdf_extractor import extract_text_from_pdf
+from job_parser import parse_job_description
+from cv_parser import parse_cv
+from llm_matcher import rank_candidates
 import time
 
 st.set_page_config(page_title="LLM Job Recommender", page_icon="🤖")
