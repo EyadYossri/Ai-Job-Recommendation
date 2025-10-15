@@ -43,7 +43,7 @@ It automatically:
 ## ⚙️ Setup Instructions
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/Ai-Job-Recommendation.git
+git clone https://github.com/EyadYossri/Ai-Job-Recommendation.git
 cd Ai-Job-Recommendation
 
 # Create and activate a virtual environment
