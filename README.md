@@ -60,3 +60,9 @@ TEMPERATURE=0.2
 
 # Run the app
 streamlit run src/streamlit_app.py
+```
+
+## 🟥 Streamlit App
+
+You can also try the **Streamlit version** here:  
+[https://ai-job-recommendation.streamlit.app/](https://ai-job-recommendation.streamlit.app/)
