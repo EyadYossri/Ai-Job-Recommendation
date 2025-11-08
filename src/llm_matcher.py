@@ -52,7 +52,7 @@ def rank_candidates(job_json, cvs_json):
             "score": evaluation.get("score", 0),
             "reason": evaluation.get("reason", "No reason provided.")
         })
-        time.sleep(60)
+        time.sleep(30)
 
     return results
 
