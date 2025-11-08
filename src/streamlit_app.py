@@ -38,7 +38,7 @@ if st.button("Analyze Candidates") and job_file and cv_files:
             "cv_data": parsed_cv
         })
 
-        time.sleep(60)
+        time.sleep(30)
         progress.progress((i + 1) / len(cv_files))
 
     st.success("✅ All CVs processed!")
