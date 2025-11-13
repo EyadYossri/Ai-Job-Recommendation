@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Demo/demo.gif" alt="Demo" width="600" />
+</p>
 # 🤖 LLM Job Recommender
 
 **LLM Job Recommender** is an AI-powered Streamlit web app that analyzes job descriptions and candidate CVs using **Google’s Gemini LLM** to find the best candidate matches.  
